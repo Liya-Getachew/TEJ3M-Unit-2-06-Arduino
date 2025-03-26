@@ -7,7 +7,7 @@
 
  const int TRIG_PIN = 3;
  const int ECHO_PIN = 2;
- const float SPEED_OF_LIGHT = 0.3403;
+ const float SPEED_OF_LIGHT = 0.03403;
  
  float duration, distance;
    
