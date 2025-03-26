@@ -29,6 +29,7 @@
     duration = pulseIn(ECHO_PIN, HIGH);
     distance = (duration*SPEED_OF_LIGHT)/2;
     Serial.print("Distance: ");
-    Serial.println(distance);
+    Serial.print(distance);
+    Serial.println(" cm")
     delay(100);
   }
